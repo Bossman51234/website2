@@ -1,0 +1,23 @@
+.fields-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field-row {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .field {
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .field-image {
+    width: 900px; /* Adjust the width as desired */
+    height: 500px; /* Adjust the height as desired */
+  }
+  
+  
