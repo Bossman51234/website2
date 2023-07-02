@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999; /* Ensures the header appears above other content */
+    z-index: 999;
   }
   
   .title {
@@ -68,12 +68,10 @@
   .services-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px; /* Adjust the grid gap value as needed */
+    grid-gap: 10px;
     margin-top: 20px;
-    margin-bottom: 100px; /* Adjust the margin-bottom value as needed */
+    margin-bottom: 100px; 
   }
-  
-  
   
   .service-row {
     display: flex;
@@ -89,8 +87,6 @@
     height: 250px;
     object-fit: cover;
   }
-  
-  /* Rest of the CSS styles... */
   
   
   .service:nth-child(5),
@@ -123,20 +119,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px; /* Add padding around the images */
+    padding: 10px; 
   }
   
   .service-image {
-    width: 100%; /* Ensure the image occupies the entire width of the container */
-    height: auto; /* Maintain the aspect ratio */
-    object-fit: cover; /* Prevent image distortion */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
   }
   
   .filter-container {
-    margin-top: 100px; /* Adjust the top margin as needed */
+    margin-top: 100px; 
   }
   .header {
-    z-index: 1; /* Ensure the header is below other elements */
+    z-index: 1; 
   }
   .service-row:nth-last-child(2) {
     grid-template-columns: repeat(2, 1fr);
